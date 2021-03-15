@@ -13,6 +13,9 @@
 		BBCAB7A125FF0C5800A3EB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCAB79F25FF0C5800A3EB33 /* Main.storyboard */; };
 		BBCAB7A325FF0C5900A3EB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCAB7A225FF0C5900A3EB33 /* Assets.xcassets */; };
 		BBCAB7A625FF0C5900A3EB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCAB7A425FF0C5900A3EB33 /* LaunchScreen.storyboard */; };
+		BBCAB7AF25FF0D6500A3EB33 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCAB7AE25FF0D6500A3EB33 /* Constants.swift */; };
+		BBCAB7B325FF11CF00A3EB33 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCAB7B225FF11CF00A3EB33 /* Video.swift */; };
+		BBCAB7B625FF12EC00A3EB33 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCAB7B525FF12EC00A3EB33 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BBCAB7A225FF0C5900A3EB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBCAB7A525FF0C5900A3EB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBCAB7A725FF0C5900A3EB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCAB7AE25FF0D6500A3EB33 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BBCAB7B225FF11CF00A3EB33 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		BBCAB7B525FF12EC00A3EB33 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				BBCAB7A225FF0C5900A3EB33 /* Assets.xcassets */,
 				BBCAB7A425FF0C5900A3EB33 /* LaunchScreen.storyboard */,
 				BBCAB7A725FF0C5900A3EB33 /* Info.plist */,
+				BBCAB7AE25FF0D6500A3EB33 /* Constants.swift */,
+				BBCAB7B225FF11CF00A3EB33 /* Video.swift */,
+				BBCAB7B525FF12EC00A3EB33 /* Model.swift */,
 			);
 			path = "Youtube Clore";
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 				BBCAB79E25FF0C5800A3EB33 /* ViewController.swift in Sources */,
 				BBCAB79A25FF0C5800A3EB33 /* AppDelegate.swift in Sources */,
 				BBCAB79C25FF0C5800A3EB33 /* SceneDelegate.swift in Sources */,
+				BBCAB7B625FF12EC00A3EB33 /* Model.swift in Sources */,
+				BBCAB7AF25FF0D6500A3EB33 /* Constants.swift in Sources */,
+				BBCAB7B325FF11CF00A3EB33 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
