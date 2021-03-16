@@ -11,7 +11,7 @@ class Model {
   
 //  buat fungsi untun mengambil ata dari youtube API
   func getVideo(){
-//    simpan url kedalem variabel
+
     let url = URL(string: Constants.API_URL)
     
 //    kitac cek url nyya arigato
@@ -28,6 +28,20 @@ class Model {
 //      kalau ada error
       if error != nil || data == nil{
         return
+      }
+      
+      do{
+        
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .iso8601
+        
+        let response = try decoder.decode(Response.self, from: data!)
+        
+        dump(response)
+      }
+      
+      catch{
+        
       }
     }
 //    mulai bekerja
