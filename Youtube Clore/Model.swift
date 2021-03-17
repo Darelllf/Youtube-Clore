@@ -7,8 +7,16 @@
 
 import Foundation
 
+
+protocol ModelDelegate {
+  
+  
+  func videosFatched(_ videos: [Video])
+}
+
 class Model {
   
+  var delegate: ModelDelegate?
 //  buat fungsi untun mengambil ata dari youtube API
   func getVideo(){
 
@@ -36,6 +44,12 @@ class Model {
         decoder.dateDecodingStrategy = .iso8601
         
         let response = try decoder.decode(Response.self, from: data!)
+        
+        if response.items != nil{
+          DispatchQueue.main.async {
+            self.delegate?.videosFatched(response.items!)
+          }
+        }
         
         dump(response)
       }
